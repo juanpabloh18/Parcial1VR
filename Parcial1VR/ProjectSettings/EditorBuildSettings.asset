@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Inicio.unity
     guid: 58ec3b038e486754080e6c70bfc921f4
   - enabled: 1
+    path: "Assets/Scenes/Presentaci\xF3n.unity"
+    guid: 552b919164d69ef469aeace5d0e0e2c1
+  - enabled: 1
     path: Assets/Scenes/Nivel.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1

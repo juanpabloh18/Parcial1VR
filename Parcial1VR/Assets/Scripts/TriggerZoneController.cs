@@ -36,6 +36,9 @@ public class TriggerZoneController : MonoBehaviour
             isPowerUpActivated = true;
             StartCoroutine(StopMovementForDuration(2f)); // Detener durante 2 segundos
 
+            // Aumentar la velocidad del personaje
+            other.gameObject.GetComponent<LogicaPersonaje>().AumentarVelocidad(5.0f, 4f); // Aumenta la velocidad en 3.0f durante 2 segundos
+
             triggerCollider.enabled = false;
             objectRenderer.enabled = false;
 
@@ -47,6 +50,7 @@ public class TriggerZoneController : MonoBehaviour
             isPowerUpActivated = false;
         }
     }
+    
 
     IEnumerator StopMovementForDuration(float duration)
     {
